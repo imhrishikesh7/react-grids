@@ -1,0 +1,40 @@
+section{
+    padding: 10px 100px;
+    padding-top: 75px;
+    background-color: #F2F6FF;
+}
+.align{
+    padding: 10px 100px;
+}
+section p{
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+}
+section p img{
+    width: 24px;
+    margin-right: 5px;
+}
+.container h1{  
+    text-align: left;
+    margin-top: 30px;
+    margin-left: 10px;
+
+}
+.filters{
+    text-align: left;
+    padding: 0 100px;
+}
+.filters button{
+    color: #0084ff;
+    padding: 6px 16px;
+    border-radius: 15px;
+    border: 1px solid #0084FF;
+    margin:5px;
+    cursor: pointer;
+}
+.filters button:hover, 
+.filters button.active{
+    background-image: linear-gradient(120deg, #6bb8ff 0%, #0084FF 100%);
+    color: white;
+}

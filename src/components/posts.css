@@ -1,0 +1,33 @@
+.posts{
+    margin: 40px 0;
+    padding: 10px 180px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr ;
+    grid-gap: 5px;
+    justify-content: space-between;
+}
+.posts .post{
+    margin: 10px;
+    border-radius: 5px;
+    overflow: hidden;
+    border: 1px solid rgba(0,168,255,.3);
+    box-shadow: 0 5px 20px 0 rgb(0 0 0 / 10%)
+}
+.posts .post img{
+    width: 100%;
+}
+.posts .post .content{
+    padding: 20px;
+    background: white;
+}
+.posts .post .content h3{
+    margin: 0;
+    text-align: left;
+}
+.posts .post .content p{
+    color: gray;
+    text-align: justify;
+}
+.posts .post .content p span{
+    color: #0096ff;
+}
